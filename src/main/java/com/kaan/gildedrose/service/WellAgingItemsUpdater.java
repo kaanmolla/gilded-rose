@@ -1,7 +1,6 @@
 package com.kaan.gildedrose.service;
 
 import com.kaan.gildedrose.model.Item;
-import com.kaan.gildedrose.service.ItemUpdater;
 
 public class WellAgingItemsUpdater implements ItemUpdater {
 

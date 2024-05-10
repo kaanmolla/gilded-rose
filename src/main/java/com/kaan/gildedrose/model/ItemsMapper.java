@@ -13,6 +13,7 @@ public class ItemsMapper {
     itemsStore.put("Aged Brie", WELL_AGING);
     itemsStore.put("Backstage passes to a TAFKAL80ETC concert", STRICTLY_EXPIRING);
     itemsStore.put("Sulfuras, Hand of Ragnaros", FIXED_QUALITY);
+    itemsStore.put("Conjured", FAST_DECAYING);
   }
 
   private ItemsMapper() {

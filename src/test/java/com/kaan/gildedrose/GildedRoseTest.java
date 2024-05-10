@@ -128,4 +128,16 @@ class GildedRoseTest {
     assertEquals(49, gildedRose.items[0].quality);
   }
 
+  @Test
+  void processItems_shouldReduceFastDecayingItemsQualityTwice() {
+    Item regularItem = new Item("Conjured", 10, 25);
+
+    GildedRose gildedRose = new GildedRose(new Item[]{regularItem});
+    gildedRose.processItems();
+
+    assertEquals("Conjured", gildedRose.items[0].name);
+    assertEquals(9, gildedRose.items[0].sellIn);
+    assertEquals(24, gildedRose.items[0].quality);
+  }
+
 }

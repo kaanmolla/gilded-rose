@@ -16,6 +16,7 @@ public class ItemsUpdaterFactory {
     updatersMap.put(FIXED_QUALITY, new FixedQualityItemsUpdater());
     updatersMap.put(STRICTLY_EXPIRING, new StrictlyExpiringItemsUpdater());
     updatersMap.put(WELL_AGING, new WellAgingItemsUpdater());
+    updatersMap.put(FAST_DECAYING, new FastDecayingItemsUpdater());
   }
 
   private ItemsUpdaterFactory() {

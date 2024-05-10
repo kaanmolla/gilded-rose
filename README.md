@@ -1,2 +1,2 @@
-# glided-rose
-Solution for glided rose kata
+# gilded-rose
+Solution for gilded rose kata
